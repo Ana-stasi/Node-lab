@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "mocha test",
     "prettier": "prettier --config .prettierrc.json --write ./*.js",
-    "lint": "eslint ."
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
