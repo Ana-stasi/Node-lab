@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha test",
+    "test": "npm run lint",
     "prettier": "prettier --config .prettierrc.json --write ./*.js",
     "lint": "eslint"
   },
