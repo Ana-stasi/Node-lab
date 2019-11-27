@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - node index.js
 script:
+  - npm lint
   - npm test
 notifications:
   email: false
